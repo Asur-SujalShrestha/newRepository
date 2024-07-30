@@ -1,0 +1,61 @@
+.todosForm{
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.todosForm form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-bottom: 40px;
+    
+    
+}
+.todosForm form input{
+    height: 40px;
+    border: 3px solid gray;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.todosForm form button{
+    height: 30px;
+    background-color: rgb(73, 73, 169);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.todosForm form button:hover{
+    background-color: blueviolet;
+}
+.taskTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.taskTable table{
+    width: 60%;
+    border: 2px solid gray;
+}
+.taskTable button{
+    background-color: red;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.taskTable button:hover{
+    background-color: pink;
+    color: black;
+}
+.taskTable table tbody tr td{
+    text-align: center;
+}
+.taskTable table tbody tr{
+    border-bottom: 2px solid black;
+}
